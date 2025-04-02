@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon de Google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        .top-right a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: black;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .search-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .search-box {
+            width: 400px;
+            padding: 10px 40px 10px 40px; /* Espacio para la lupa */
+            border: 1px solid #ccc;
+            border-radius: 24px;
+            outline: none;
+            font-size: 16px;
+        }
+        .search-box:focus {
+            border-color: #4285f4;
+        }
+        .search-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .search-icon {
+            position: absolute;
+            left: 15px; /* Ajuste para que la lupa quede dentro */
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            background-color: #f8f9fa;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .buttons button:hover {
+            background-color: #e8e8e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-right">
+        <a href="#">Gmail</a>
+        <a href="#">Imágenes</a>
+        <img src="user.png" alt="Usuario" width="30">
+       
+    </div>
+
+    <img src="logo.png" alt="Google Logo" class="logo" width="300">
+
+    <div class="search-container">
+        <div class="search-wrapper">
+            <i class="fa fa-search search-icon"></i>
+            <input type="text" class="search-box" placeholder="Buscar en Google">
+        </div>
+        <div class="buttons">
+            <button>Buscar con Google</button>
+            <button>Voy a tener suerte</button>
+            <p>ELaborado por juan y diego</p>
+        </div>
+    </div>
+</body>
