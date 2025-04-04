@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clon de Google</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,12 +16,12 @@
             height: 100vh;
             margin: 0;
         }
-        .top-right {
+        .options {
             position: absolute;
             top: 10px;
             right: 20px;
         }
-        .top-right a {
+        .options a {
             margin-left: 15px;
             text-decoration: none;
             color: black;
@@ -74,11 +75,13 @@
     </style>
 </head>
 <body>
-    <div class="top-right">
-        <a href="#">Gmail</a>
-        <a href="#">Imágenes</a>
-        <img src="user.png" alt="Usuario" width="30">
-       
+    <header>
+        <div class="options">
+            <a href="#">Gmail</a>
+            <a href="#">Imágenes</a>
+            <a href="#"><svg class="gb_F" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path><image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24" style="border:none;display:none \9"></image></svg></a>
+            <a href="#"><img src="user.png" alt=""></a>
+    </header>
     </div>
 
     <img src="logo.png" alt="Google Logo" class="logo" width="300">
@@ -91,7 +94,7 @@
         <div class="buttons">
             <button>Buscar con Google</button>
             <button>Voy a tener suerte</button>
-            <p>ELaborado por juan y diego</p>
         </div>
+        <p style="text-align: center;">Ofrecido por Juan y Diego en: Español (LATINOAMERICANO)</p>
     </div>
-</body>
+</body>        
