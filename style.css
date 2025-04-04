@@ -7,30 +7,36 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: #fff;
-    margin: 0;
+}
+header {
+    height:  60px;
+    display: flex;
+    justify-content: end;
+    padding: 0 12px;
+}
+header .options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+header .options a {
+    font-family: Arial, sans-serif;
+    color: black;
+    text-decoration: none;
 }
 header .options a svg {
     height: 24px;
     width: 24px;
 }
-header {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-}
 
-.header-right a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-}
-
-.user-icon {
-    width: 40px;
-    height: 40px;
+header .options a img{
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
+}
+header .options a svg {
+    height: 24px;
+    width: 24px;
 }
 
 .container {
